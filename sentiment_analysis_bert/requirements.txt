@@ -2,3 +2,4 @@ streamlit
 transformers
 tensorflow
 pandas
+tf-keras
