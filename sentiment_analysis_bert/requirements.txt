@@ -1,1 +1,1 @@
-pip install transformers tensorflow pandas streamlit
+!pip install transformers tensorflow pandas streamlit
