@@ -1,0 +1,4 @@
+streamlit
+Beautifulsoup
+requests
+re
