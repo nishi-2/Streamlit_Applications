@@ -1,4 +1,4 @@
 streamlit
-BeautifulSoup
+bs4
 requests
 re
