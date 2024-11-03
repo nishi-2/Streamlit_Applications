@@ -5,6 +5,7 @@ from collections import defaultdict
 
 def scrape_content(url):
     # performing all operations inside try block to catch expections if any
+    
     # region - Checking the url access status, if success then parsing the content with html parser
     try:
         response = requests.get(url)
@@ -18,9 +19,9 @@ def scrape_content(url):
 
 
         #region - Scraping the web sequentially, keeping record of the path in the form of tags
-        #         Looking for tags with text content and skipping the other form of tags
         content_dict = defaultdict(str) #creating a dictionary with text content
-
+        
+        # Looking for tags with text content and skipping the other form of tags
         def traverse_tree(node, path=[]):
             if not node or not node.name:  #if the node is None then loop will continue
                 return
