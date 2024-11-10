@@ -4,7 +4,7 @@ import tensorflow as tf
 import pandas as pd
 
 # Load the saved model and tokenizer
-model_path = "doitlazy/sentiment_analysis" 
+model_path = "doitlazy/bert_binary_sentiment_analysis" 
 model = TFAutoModelForSequenceClassification.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
