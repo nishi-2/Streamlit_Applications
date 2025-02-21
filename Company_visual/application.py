@@ -6,8 +6,7 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 
 #reading the dataset
-file_path = os.path.join(os.path.dirname(__file__), "filtered_file.csv")
-df = pd.read_csv(file_path)
+df = pd.read_csv("filtered_file.csv")
 
 #placing title on the selection sidebar
 st.sidebar.title("Company Analysis")
