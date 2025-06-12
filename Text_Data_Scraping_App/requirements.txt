@@ -1,3 +1,4 @@
 streamlit
 bs4
 requests
+python-docx
